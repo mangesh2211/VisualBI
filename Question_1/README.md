@@ -1,7 +1,7 @@
 # MSSQL docker setup
-##how to use this repository?
+## how to use this repository?
 
-####step1: git clone
+#### step1: git clone
 ```
 git clone https://github.com/mangesh2211/VisualBI
 cd VisualBI/Question_1
@@ -29,11 +29,11 @@ Step 1/8 : FROM mcr.microsoft.com/mssql/server:2019-latest
 root@mangesh-VirtualBox:~/VisualBI/Question_1# docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
 b8f22e5a766e        question1_mssql     "/bin/sh -c '/bin/ba…"   3 minutes ago       Up 3 minutes        0.0.0.0:1433->1433/tcp   mssql-dev
-
+```
 - take the conatiner ID from the above output and login to mssql shell
 In this case the password is p@ssw0rd which has been configured in docker-composoe file.
 ```
-
+```
 root@mangesh-VirtualBox:~/VisualBI/Question_1# docker exec -it b8f22e5a766e /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P p@ssw0rd
 1> USE testDB;
 2> GO
