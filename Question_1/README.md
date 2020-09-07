@@ -35,6 +35,7 @@ In this case the password is p@ssw0rd which has been configured in docker-compos
 
 
 
+```
 root@mangesh-VirtualBox:~/VisualBI/Question_1# docker exec -it b8f22e5a766e /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P p@ssw0rd
 1> USE testDB;
 2> GO
@@ -44,10 +45,10 @@ Changed database context to 'testDB'.
 Id          Data                                              
 ----------- --------------------------------------------------
           1 A                                                 
-
-(1 rows affected)
-1> 
-
-Sqlcmd: Warning: The last operation was terminated because the user pressed CTRL+C.
 ```
+
+
+
+
+
 
