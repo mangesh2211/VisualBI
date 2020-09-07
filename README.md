@@ -1,2 +1,2 @@
-# Visual-BI DevOps Assesment
+# Visual-BI DevOps Assessment
 
