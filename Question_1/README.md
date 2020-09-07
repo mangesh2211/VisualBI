@@ -32,7 +32,11 @@ b8f22e5a766e        question1_mssql     "/bin/sh -c '/bin/ba…"   3 minutes ago
 ```
 - take the conatiner ID from the above output and login to mssql shell
 In this case the password is p@ssw0rd which has been configured in docker-composoe file.
+
+
 ```
+
+
 ```
 root@mangesh-VirtualBox:~/VisualBI/Question_1# docker exec -it b8f22e5a766e /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P p@ssw0rd
 1> USE testDB;
