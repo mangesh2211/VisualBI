@@ -1,7 +1,0 @@
-+----------------+-----------------------------------------------+---------+
-|     output     |                    folder                     | scripts |
-+----------------+-----------------------------------------------+---------+
-| this is file a | C:\Users\mange\OneDrive\Desktop\Scripts\arial |  a.py   |
-| This is file b | C:\Users\mange\OneDrive\Desktop\Scripts\arial |  b.py   |
-| this is file c | C:\Users\mange\OneDrive\Desktop\Scripts\arial |  c.py   |
-+----------------+-----------------------------------------------+---------+
